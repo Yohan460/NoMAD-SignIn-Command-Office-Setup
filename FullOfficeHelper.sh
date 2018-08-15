@@ -1,9 +1,9 @@
 #!/bin/bash
 
-if [[ ! -f "/Library/Battelle/Receipts/.OutlookSetupDone" ]]; then
-	touch /Library/Battelle/Receipts/.OutlookSetupDone
-	sh /Library/Battelle/Scripts/OfficeSignInHelper.sh
-	osascript /Library/Battelle/Scripts/OutlookExchangeSetup.scpt
+if [[ ! -f "/Library/NoMADOfficeSetup/Receipts/.OutlookSetupDone" ]]; then
+	touch /Library/NoMADOfficeSetup/Receipts/.OutlookSetupDone
+	sh /Library/NoMADOfficeSetup/Scripts/OfficeSignInHelper.sh
+	osascript /Library/NoMADOfficeSetup/Scripts/OutlookExchangeSetup.scpt
 fi
 
 exit 0
