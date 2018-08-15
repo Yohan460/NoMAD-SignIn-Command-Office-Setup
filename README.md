@@ -1,1 +1,2 @@
-# NoMAD-SignIn-Command-Office-Setup
+# Automatic Outlook Configuraiton with NoMAD
+
