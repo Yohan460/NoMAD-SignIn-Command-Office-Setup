@@ -1,4 +1,4 @@
-# Automatic Outlook Configuraiton with NoMAD
+# Automatic Outlook Configuration with NoMAD
 
 The advantage of utilizing the NoMAD [SignInCommand](https://nomad.menu/help/preferences-and-what-they-do/) is that there will be a kerberos ticket of the user when Outlook is configured vs there being no guarantee of that being the case. The only issue is that the SignInCommand runs every time a sign in happens. Therefore there is a receipt that is written and checked before configuring Outlook.
 
